@@ -53,21 +53,25 @@
     }
     div[id^="titulo-"] h1 { font-size: 14px !important; }
 
-    /* 2. CUADRO INFORMATIVO EXTENDIDO ABAJO */
-    /* Quitamos el centrado vertical (top 50%) y lo pegamos al fondo */
-    div[style*="max-width: 280px"] {
-        top: auto !important;
-        bottom: 85px !important; /* Distancia desde el borde inferior */
-        left: 0 !important;
-        right: 0 !important;
-        margin: 0 auto !important; /* Lo centra horizontalmente */
-        max-width: 90% !important; /* Se extiende a casi todo el ancho */
-        width: 90% !important;
-        transform: none !important; /* Eliminamos el desplazamiento anterior */
-        font-size: 11px !important;
-        padding: 10px !important;
-        background: rgba(255, 255, 255, 0.9) !important; /* Un poco más sólido para leer mejor */
-    }
+   /* 2. CUADRO INFORMATIVO EXTENDIDO ABAJO */
+div[style*="max-width: 280px"] {
+    top: auto !important;
+    bottom: 85px !important; 
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    max-width: 90% !important;
+    width: 90% !important;
+    transform: none !important;
+    font-size: 9px !important; 
+    padding: 10px !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Estas reglas deben ir por separado para afectar el contenido interno */
+div[style*="max-width: 280px"] table { font-size: 9px !important; }
+div[style*="max-width: 280px"] th { font-size: 8px !important; width: 35% !important; }
+div[style*="max-width: 280px"] td { font-size: 9px !important; }
 
     /* 3. BOTONES DE NAVEGACIÓN */
     /* Aseguramos que los botones no tapen el logo o el título superior */
