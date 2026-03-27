@@ -1,6 +1,6 @@
 # Licencia de Uso - Proyecto Resultados Municipales 2025
 
-Este proyecto, incluyendo sus mapas interactivos, capas de datos geográficos (GeoJSON/JS) y código fuente, se distribuye bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).
+Este proyecto, incluyendo sus mapas interactivos, capas de datos geográficos (GeoJSON/JS) y código fuente, se distribuye bajo la licencia Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0).
 
 ### Bajo los siguientes términos:
 * **Atribución (BY):** Usted debe dar crédito de manera adecuada, brindar un enlace a la licencia e indicar si se han realizado cambios. 
